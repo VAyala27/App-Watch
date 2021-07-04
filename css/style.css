@@ -46,38 +46,3 @@ ul{
     padding: 0 1rem;
     color: #222;
 }
-
-#hero{
-    background: #f3f3f3;
-}
-
-.hero-container{
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.hero-content h1{
-    margin-bottom: 1rem;
-    color: #222;
-    font-size: 54px;
-    font-weight: bold;
-}
-
-.hero-content p{
-    margin-bottom: 1rem;
-    color: #a1a1a1;
-    font-size: 14px;
-    line-height: 1.5;
-}
-
-.btn{
-    background: #1eb858;
-    border-radius: 0 5px 5px 0;
-    color: #fff;
-    padding: 10px 25px;
-    font-size: .9rem;
-    display: inline-block;
-    width: 20%;
-    text-align: center;
-}

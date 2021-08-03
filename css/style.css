@@ -226,22 +226,191 @@ ul{
 }
 
 #feature-sub{
-    background: url("../img/image-bg.jpeg") no-repeat center center fixed; 
+    background: url("../img/image-bg.jpeg") no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 50vh;
+    height: 75vh;
     width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#feature-sub .content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #feature-sub h1{
     color: #fff;
     font-weight: 100;
+    font-size: 27px;
+    line-height: 1.5;
+    margin: 0 0 30px;
+}
+
+#feature-sub .btn{
+    display: inline-block;
+
 }
 
 #feature-sub .btn:hover{
     background: transparent;
     border: #1eb858 1px solid;
     color: #1eb858;
+}
+
+#pricing-plans{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background: #f4f4f4;
+}
+
+.price-plan-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.plan{
+    background: #fff;
+    padding: 15px;
+    width: 20%;
+    margin: 20px 20px 0px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.plan .fas{
+    color: #1eb858;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    font-size: 36px;
+}
+
+.plan h3{
+    margin-bottom: 1rem;
+    font-weight: 100;
+}
+
+.plan span{
+    font-family: Open Sans;
+    font-size: 28px;
+    font-weight: 400;
+    color: grey;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+}
+
+.plan p{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    color: #505050;
+    line-height: 2;
+    margin-bottom: 2rem
+}
+
+.plan .btn{
+    margin-bottom: 2rem;
+}
+
+
+.plan .btn:hover{
+    background: transparent;
+    border: #1eb858 1px solid;
+    color: #1eb858;
+}
+
+#newsletter{
+    background: linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.9)),url("/img/cta_bg.jpeg") center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#newsletter .content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#newsletter h1{
+    color: #fff;
+    font-size: 27px;
+    line-height: 1.5;
+    margin: 0 0 30px;
+}
+
+#newsletter .btn:hover{
+    background: transparent;
+    border: #1eb858 1px solid;
+    color: #1eb858;
+}
+
+input{
+    display: inline-block;
+    width: 50%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.input-group {
+    margin-top: 2rem;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+    justify-content: center;
+}
+
+#footer{
+    padding-top: 2rem;
+    background: #f4f4f4;
+    padding-bottom: 2rem;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container p{
+    text-align: left;
+}
+
+.iland-info .logo{
+    margin-bottom: 1rem;
+}
+
+.iland-info p{
+    margin-bottom: 1rem;
+}
+
+.contact h2{
+    margin-bottom: 1rem;
+    font-weight: 100;
 }
